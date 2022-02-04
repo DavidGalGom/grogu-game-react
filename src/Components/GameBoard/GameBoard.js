@@ -43,18 +43,67 @@ const GameBoard = () => {
         <div className="board-container">
           <div className="grogu-base">
             <img
+              className="grogu-initial-position"
               src="https://stickersde.com/wp-content/uploads/2021/08/grogu-mandalorian.png"
               alt="grogu"
               height="100"
               width="100"
             />
           </div>
-          <div className="game-cell one"></div>
-          <div className="game-cell two"></div>
-          <div className="game-cell three"></div>
-          <div className="game-cell four"></div>
-          <div className="game-cell five"></div>
-          <div className="game-cell six"></div>
+          <div className="game-cell one">
+            <img
+              className="grogu-hidden"
+              src="https://stickersde.com/wp-content/uploads/2021/08/grogu-mandalorian.png"
+              alt="grogu"
+              height="90"
+              width="90"
+            />
+          </div>
+          <div className="game-cell two">
+            <img
+              className="grogu-hidden"
+              src="https://stickersde.com/wp-content/uploads/2021/08/grogu-mandalorian.png"
+              alt="grogu"
+              height="90"
+              width="90"
+            />
+          </div>
+          <div className="game-cell three">
+            <img
+              className="grogu-hidden"
+              src="https://stickersde.com/wp-content/uploads/2021/08/grogu-mandalorian.png"
+              alt="grogu"
+              height="90"
+              width="90"
+            />
+          </div>
+          <div className="game-cell four">
+            <img
+              className="grogu-hidden"
+              src="https://stickersde.com/wp-content/uploads/2021/08/grogu-mandalorian.png"
+              alt="grogu"
+              height="90"
+              width="90"
+            />
+          </div>
+          <div className="game-cell five">
+            <img
+              className="grogu-hidden"
+              src="https://stickersde.com/wp-content/uploads/2021/08/grogu-mandalorian.png"
+              alt="grogu"
+              height="90"
+              width="90"
+            />
+          </div>
+          <div className="game-cell six">
+            <img
+              className="grogu-hidden"
+              src="https://stickersde.com/wp-content/uploads/2021/08/grogu-mandalorian.png"
+              alt="grogu"
+              height="90"
+              width="90"
+            />
+          </div>
           <div className="food-container">
             <div className="game-cell cookies-container">
               <p className="cell-text">{currentCookies} Cookies</p>

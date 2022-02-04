@@ -117,3 +117,7 @@ code {
   color: #980;
   text-align: center;
 }
+
+.grogu-hidden {
+  display: none;
+}
