@@ -1,18 +1,22 @@
 import "./App.css";
-import Button from "./Components/Button/Button";
-
-const startTheGameAction = () => {};
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import GamePage from "./Pages/GamePage";
+import MainPage from "./Pages/MainPage";
+import NotFoundPage from "./Pages/NotFoundPage";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="main-title">Welcome to the Grogu game</h1>
-      <Button
-        value="Click to begin the game"
-        actionOnClick={startTheGameAction}
-        className="start-button"
-      />
-    </div>
+    <>
+      <Router>
+        <h1 className="main-title">Welcome to the Grogu game</h1>
+
+        <Routes>
+          <Route path="/GamePage" element={<GamePage />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/*" element={<NotFoundPage />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
