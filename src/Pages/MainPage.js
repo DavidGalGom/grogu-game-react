@@ -1,7 +1,11 @@
+import { useNavigate } from "react-router";
 import Button from "../Components/Button/Button";
 
 const MainPage = () => {
-  const startTheGameAction = () => {};
+  const navigate = useNavigate();
+  const startTheGameAction = () => {
+    navigate("/GamePage");
+  };
 
   return (
     <div className="main-page-container">
