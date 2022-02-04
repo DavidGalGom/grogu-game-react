@@ -112,3 +112,12 @@ code {
   text-align: center;
   font-size: 20px;
 }
+
+.end-title {
+  color: #980;
+  text-align: center;
+}
+
+.grogu-hidden {
+  display: none;
+}
