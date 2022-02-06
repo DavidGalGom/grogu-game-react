@@ -4,6 +4,7 @@ import GamePage from "./Pages/GamePage";
 import MainPage from "./Pages/MainPage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import EndGamePage from "./Pages/EndGamePage";
+import PlayAgainPage from "./Pages/PlayAgainPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
         <Routes>
           <Route path="/GamePage" element={<GamePage />} />
+          <Route path="/PlayAgainPage" element={<PlayAgainPage />} />
           <Route path="/EndGamePage" element={<EndGamePage />} />
           <Route path="/" element={<MainPage />} />
           <Route path="/*" element={<NotFoundPage />} />

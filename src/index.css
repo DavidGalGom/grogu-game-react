@@ -117,3 +117,42 @@ code {
   color: #980;
   text-align: center;
 }
+
+.retry-button {
+  color: #980;
+  background-color: #333;
+  border-color: #980;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+}
+
+.retry-button:hover {
+  color: #333;
+  background-color: #980;
+  border-color: #333;
+  cursor: pointer;
+}
+
+.play-again-button {
+  color: #980;
+  background-color: #333;
+  border-color: #980;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+}
+
+.play-again-button:hover {
+  color: #333;
+  background-color: #980;
+  border-color: #333;
+  cursor: pointer;
+}
+
+.play-again-title {
+  color: #980;
+  text-align: center;
+}

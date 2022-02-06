@@ -27,7 +27,7 @@ const GameBoard = () => {
     if (currentCookies === 0 && currentEggs === 0 && currentFrogs === 0) {
       navigate("/EndGamePage");
     } else if (currentSquare === 6) {
-      navigate("/EndGamePage");
+      navigate("/PlayAgainPage");
     }
   };
   useEffect(() => {
